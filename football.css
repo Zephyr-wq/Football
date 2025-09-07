@@ -1,0 +1,46 @@
+.holder{
+    background-color: black;
+}
+
+.phone{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 50px;
+}
+
+.one{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.two{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.other{
+    padding-top: 10px;
+}
+
+.holy{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.spud{
+    height: 90px;
+}
+
+.grave{
+    height: 50px;
+    background-color: black;
+}
+
+.basic{
+    background-color: black;
+}
+
+.bingo{
+    background-image: url(https://res.cloudinary.com/det5cjrev/image/upload/v1757166251/Frame_1000002366_ds1jbd.png);
+}
