@@ -31,3 +31,8 @@
   .some{
     background-color: rgba(0, 31, 71, 1);
   }
+
+  .mood{
+    font-weight: 400;
+    font-size: 15px;
+  }
