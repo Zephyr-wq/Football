@@ -5,42 +5,39 @@
 .phone{
     background-color: rgb(0, 0, 0);
     color: white;
-    height: 50px;
-}
-
-.one{
-    font-size: 14px;
-    margin-left: 20px;
-}
-
-.two{
-    font-size: 14px;
-    margin-left: 20px;
-}
-
-.other{
     padding-top: 10px;
 }
 
-.holy{
+
+
+.background{
+    background-image: url(https://res.cloudinary.com/det5cjrev/image/upload/v1757166251/Frame_1000002366_ds1jbd.png);
+    height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.spud{
-    height: 90px;
+.dot{
+    width: 20px;
+    margin-left: 50px;
 }
 
-.grave{
-    height: 50px;
-    background-color: black;
+.why{
+    height: 30px;
 }
 
-.basic{
-    background-color: black;
+.adjust{
+    font-size: 12px;
 }
 
-.bingo{
-    background-image: url(https://res.cloudinary.com/det5cjrev/image/upload/v1757166251/Frame_1000002366_ds1jbd.png);
+.hmm{
+    justify-content: center;
+    display: inline-flex;
+}
+
+.shit{
+    margin-left: 30px;
 }
