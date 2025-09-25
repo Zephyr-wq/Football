@@ -81,12 +81,18 @@
   margin-top: 40px;
 }
 
-.rhy{
+.rhy {
   background-image: url('https://res.cloudinary.com/det5cjrev/image/upload/v1758547110/Background_zc4nig.png');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
+  min-height: 100vh;            /* always at least full screen height */
+  background-size: cover;       /* cover ensures scaling */
+  background-position: center;  /* keeps center focus */
+  background-repeat: no-repeat; /* prevents tiling */
+  display: flex;                /* helps with vertical centering */
+  align-items: center;          /* centers content vertically */
+  justify-content: center;      /* optional: centers horizontally */
+  padding: 3rem 1rem;           /* responsive spacing */
 }
+
 
 .ly{
   background-color: #001F47;
