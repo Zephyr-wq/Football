@@ -5,9 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Soccer Gladiator</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="football.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="ty.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link href="https://res.cloudinary.com/det5cjrev/image/upload/v1757502093/download_mqjlic.png" rel="icon" type="image/png">
+
+  <!-- Internal Styles (custom overrides) -->
+  <style>
+    body {
+      font-family: 'DM Sans', sans-serif;
+      overflow-x: hidden;
+    }
+
+    .phone {
+      background-color: #f8f9fa;
+      font-size: 14px;
+      padding: 8px 0;
+    }
+
+    .dot {
+      width: 20px;
+      height: 20px;
+      margin: 0 3px;
+    }
+
+    .background {
+      background: linear-gradient(to right, #152238, #002677);
+      min-height: 100vh;
+      padding: 60px 0;
+    }
+
+    .gradient-text {
+      background: linear-gradient(90deg, #ff0000, #002677);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .thumbnail h6 {
+      letter-spacing: 2px;
+    }
+
+    .testimonial-card {
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .pam {
+      background: #000;
+    }
+
+    .rhy {
+      background: #f5f7fa;
+      min-height: 80vh;
+    }
+
+    .cross {
+      background: linear-gradient(135deg, #101826, #1c2c44);
+    }
+
+    @media (max-width: 767px) {
+      .phone {
+        display: none !important;
+      }
+      .navbar-brand img {
+        height: 25px;
+      }
+      .thumbnail {
+        max-width: 100% !important;
+        margin: 10px 0;
+      }
+      h1, h2, h3 {
+        font-size: calc(1.5rem + 1vw);
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -43,7 +117,7 @@
 
       <!-- Left Menu -->
       <ul class="navbar-nav ms-5 mb-2 mb-lg-0 flex-nowrap">
-        <li class="nav-item"><a class="nav-link text-nowrap" href="ty.html">UPCOMING MATCHES</a></li>
+        <li class="nav-item"><a class="nav-link text-nowrap" href="#">UPCOMING MATCHES</a></li>
         <li class="nav-item"><a class="nav-link text-nowrap" href="#">DOWNLOAD</a></li>
         <li class="nav-item"><a class="nav-link text-nowrap" href="#">FEATURES</a></li>
         <li class="nav-item"><a class="nav-link text-nowrap" href="#">HOW IT WORKS</a></li>
@@ -543,7 +617,7 @@
       </div>
       <div class="col-md-6 pt-5">
         <div class="d-flex flex-wrap gap-4">
-          <a href="ty.html" style="color: white; text-decoration: none;">About</a>
+          <a href="#" style="color: white; text-decoration: none;">About</a>
           <a href="#" style="color: white; text-decoration: none;">Features</a>
           <a href="#" style="color: white; text-decoration: none;">Careers</a>
           <a href="#" style="color: white; text-decoration: none;">Help</a>

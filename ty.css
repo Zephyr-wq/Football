@@ -1,0 +1,70 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+.phone {
+  background-color: #f8f9fa;
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+}
+
+.background {
+  background: linear-gradient(to right, #152238, #002677);
+  min-height: 100vh;
+  padding: 60px 0;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff0000, #002677);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.thumbnail h6 {
+  letter-spacing: 2px;
+}
+
+.testimonial-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.pam {
+  background: #000;
+}
+
+.rhy {
+  background: #f5f7fa;
+  min-height: 80vh;
+}
+
+.cross {
+  background: linear-gradient(135deg, #101826, #1c2c44);
+}
+
+@media (max-width: 767px) {
+  .phone {
+    display: none !important;
+  }
+  .navbar-brand img {
+    height: 25px;
+  }
+  .thumbnail {
+    max-width: 100% !important;
+    margin: 10px 0;
+  }
+  h1, h2, h3 {
+    font-size: calc(1.5rem + 1vw);
+  }
+}
